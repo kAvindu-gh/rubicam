@@ -167,7 +167,6 @@ RubiCam aims to provide an intuitive and educational Rubik's Cube solving experi
 
 Software Engineering Undergraduate  
 Informatics Institute of Technology (IIT) Sri Lanka  
-University of Westminster
 
 ---
 
