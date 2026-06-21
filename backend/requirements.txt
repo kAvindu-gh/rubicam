@@ -1,0 +1,20 @@
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29,<1.0
+sqlalchemy>=2.0,<3.0
+pydantic-settings>=2.2,<3.0
+email-validator>=2.1,<3.0
+python-jose[cryptography]>=3.3,<4.0
+passlib[bcrypt]>=1.7,<2.0
+bcrypt>=4.0,<5.0
+python-multipart>=0.0.9,<1.0
+
+# Python 3.14 needs newer wheels. Older NumPy builds try to compile from source.
+numpy>=2.2,<2.3; python_version >= "3.13"
+opencv-python-headless>=4.12,<5.0; python_version >= "3.13"
+
+# Stable combo for Python 3.11/3.12.
+numpy>=1.26,<2.0; python_version < "3.13"
+opencv-python-headless>=4.8,<5.0; python_version < "3.13"
+
+# kociemba currently installs reliably on Python 3.11/3.12, not Python 3.14.
+kociemba>=1.2,<2.0; python_version < "3.13"
