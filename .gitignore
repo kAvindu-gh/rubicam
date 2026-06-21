@@ -1,0 +1,77 @@
+# =========================
+# Python Backend
+# =========================
+backend/venv/
+**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+
+# Environment Variables
+backend/.env
+backend/.env.*
+
+# Database
+backend/*.db
+backend/*.sqlite3
+
+# Logs
+*.log
+
+# =========================
+# Flutter Frontend
+# =========================
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+
+# Flutter generated
+frontend/flutter_export_environment.sh
+
+# =========================
+# Android
+# =========================
+frontend/android/.gradle/
+frontend/android/app/debug
+frontend/android/app/profile
+frontend/android/app/release
+
+# =========================
+# iOS
+# =========================
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/Flutter/Flutter.podspec
+
+# =========================
+# IDE Files
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Agent Files
+# =========================
+.agents/
+
+# =========================
+# Coverage
+# =========================
+coverage/
+htmlcov/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
